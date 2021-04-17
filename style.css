@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(27, 27, 27);
+}
+
+.newsletter {
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    width: 620px;
+    min-width: 600px;
+    height: 500px;  
+}
+
+
+.name {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.name p {
+    font-family: 'Pirata One', cursive;
+    font-size: 7rem;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    padding-bottom: 6px;
+}
+
+
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+
+    
+    border-bottom: 1px solid black;
+}
+
+.info p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+.title h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    font-size: 4rem;
+    margin: 4px 0 0;
+    text-transform: uppercase;
+}
+
+.content {
+    display: flex;
+}
+
+.content .left-side {
+    margin-right: 10px;
+    width: 50%;
+}
+
+.content .left-side h2 {
+    display: flex;
+    flex-direction: column;
+  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 4rem;
+    margin: 4px 0 0;
+    padding: 0 10px;
+}
+
+.content .left-side div {
+    display: flex;
+}
+
+.content .left-side div p:first-child {
+    margin-right: 10px;
+  }
+  
+  .content .left-side div p {
+    font-size: 1.2rem;
+  }
+  
+  .content .right-side {
+    width: 50%;
+  }
+  
+  .content .right-side img {
+    transform: rotate(-1deg);
+    width: 100%;
+  }
+  
+  .content .right-side p {
+    font-size: 0.8rem;
+  }
+
+
+
